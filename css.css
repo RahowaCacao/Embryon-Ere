@@ -1,0 +1,30 @@
+body {
+  background: radial-gradient(circle, #eaf2f8, #b3cde0);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  color: #123;
+}
+
+#actions button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #2a9d8f;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#actions button:hover {
+  background: #21867a;
+}
+
+#log {
+  margin-top: 20px;
+  max-width: 600px;
+  background: rgba(255,255,255,0.7);
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 100px;
+}
