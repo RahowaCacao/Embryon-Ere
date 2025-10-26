@@ -3,6 +3,7 @@
   <meta charset="utf-8" />
   <title>Mon Jeu de Gestion</title>
   <img id="issou" src="https://rahowacacao.github.io/Embryon-Ere/issou.png" alt="Ryudotusuck" style="display:none; width:300px; margin-top:20px;">
+  <img id="clicker-img" src="https://rahowacacao.github.io/Embryon-Ere/kippa.png" alt="Clicker">
   <link rel="stylesheet" href="css.css">
 </head>
   <h1>Laboratoire de Culture</h1>
@@ -23,10 +24,31 @@
   
 
   <div id="log"></div>
-  
+  <style>
+  body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin-top: 50px;
+  }
+  #money {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  #clicker-img {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  #clicker-img:active {
+    transform: scale(0.95); /* effet de clic */
+  }
+</style>
+ <div id="kippa">Kippa : 0</div>
   
 <script src="script.js"></script>
 </body>
+
 
 
 
