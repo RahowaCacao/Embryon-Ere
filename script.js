@@ -53,6 +53,7 @@ niveau = 1;
 recolter= 0;
 argent = 10;
 update();
+issou.remove();
   log('Nouvelle partie démarrée.');
   render();
 }
