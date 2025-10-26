@@ -5,6 +5,7 @@ let recolter= 0;
 let argent = 10;
 
 
+
 document.getElementById("recolter").onclick = () => {
   argent += 500;
   if (argent = 500){
@@ -28,6 +29,7 @@ recolter= 0;
 argent = 10;
 log("Tu as été trop loin, les services secrets français viennent poser des questions")
 	}
+	issou.style.display = 'block';
 };
 
 document.getElementById("ameliorer").onclick = () => {
