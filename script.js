@@ -3,8 +3,15 @@ let energie = 100;
 let niveau = 1;
 let recolter= 0;
 let argent = 10;
+let kippa = 0;
 
+const kippaDisplay = document.getElementById('kippa');
+const clickerImg = document.getElementById('clicker-img');
 
+clickerImg.addEventListener('click', () => {
+    kippa += 1;
+    kippaDisplay.textContent = 'Kippa : ' + kippa;
+});
 
 document.getElementById("recolter").onclick = () => {
   argent += 500;
@@ -68,3 +75,4 @@ function update() {
 function log(msg) {
   document.getElementById("log").innerHTML += `<p>${msg}</p>`;
 }
+
